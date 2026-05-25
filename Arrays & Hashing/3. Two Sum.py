@@ -1,5 +1,5 @@
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(nums,target):
         lookup = {} # val -> index
 
         for i in range(len(nums)):
